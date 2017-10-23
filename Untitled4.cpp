@@ -13,5 +13,7 @@ int main(){
 	biayaP = jumlahBoxP * 500;
 	cout << "Biaya Parket (Rp)  : "<<biayaP<<endl;
 	biayaPG = luasrumah *20;
-	cout << "Biaya Pasang (Rp)  : "<<biayaPG<<endl; 
+	cout << "Biaya Pasang (Rp)  : "<<biayaPG<<endl;
+	totalB = biayaP+biayaPG;
+	cout <<"Total Biaya(Rp)     : "<<totalB<<endl;
 }
