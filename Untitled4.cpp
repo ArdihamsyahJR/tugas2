@@ -7,5 +7,7 @@ int main(){
 	double lantaibox = lantaiP*8/1000000;
 	cout <<"Luas Rumah 			: "<<luasrumah<<" m2" <<endl;
 	cout <<"Luas 1 box parket	: "<<lantaibox<<" m2" <<endl;
-	double jumlahBoxP,biayaP,biayaPG,totalB; 
+	double jumlahBoxP,biayaP,biayaPG,totalB;
+	jumlahBoxP = luasrumah/lantaibox;
+	cout << "Jumlah box parket     : " <<jumlahBoxP<<endl;
 }
